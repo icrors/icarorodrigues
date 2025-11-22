@@ -12,3 +12,4 @@ for n in lista:
     
     if divisores == 2: primos.append(n)
     else: nao_primos.append(n)
+    
