@@ -17,4 +17,4 @@ for chave, valor in dicionario.items():
     media = soma/len(valor)
     medias[chave] = media
 
-print(sorted(medias.items()))
+print(sorted(medias.items(), reverse=True))
